@@ -1,0 +1,21 @@
+{
+  "name": "caching_proxy",
+  "version": "1.0.0",
+  "main": "bin/index.js",
+  "bin": {
+    "caching_proxy": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A CLI tool for a caching proxy server",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "commander": "^13.1.0",
+    "express": "^5.1.0"
+  }
+}
